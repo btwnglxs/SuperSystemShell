@@ -50,7 +50,7 @@ bash
 `x86_64-w64-mingw32-windres resources.rc -O coff -o resources.res`
 
 ## 2. Compile and link the optimized binary
-`x86_64-w64-mingw32-gcc sss.c resources.res -o SuSysShell.exe -ladvapi32 -luser32 -s -Os -fno-ident`
+`x86_64-w64-mingw32-gcc sss.c resources.res -o SuSysShell.exe -ladvapi32 -luser32 -s -Os`
 
 ## VirusTotal & False Positives
 VirusTotal - https://www.virustotal.com/gui/file/89b0657aaa1e57ff7f60cd71bbca3316f4f427bc3e7cba325a02534f3210f659/detection
