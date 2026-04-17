@@ -59,7 +59,7 @@ VirusTotal - https://www.virustotal.com/gui/file/89b0657aaa1e57ff7f60cd71bbca331
 Due to the nature of token manipulation, this utility uses sensitive Windows APIs (OpenProcessToken, DuplicateTokenEx, CreateProcessWithTokenW). Because these techniques are also used by penetration testing tools (like Mimikatz), some antivirus engines may flag this file as HackTool or Riskware.
 
 >[!TIP]
->**These are False Positives.** The program does not contain any malicious code or backdoors; it simply performs the escalation tasks described in >the source code for administrative purposes.
+>**These are False Positives.** The program does not contain any malicious code or backdoors; it simply performs the escalation tasks described in the source code for administrative purposes.
 
 > [!IMPORTANT]
 >This project is for educational and authorized system administration purposes only. The author is not responsible for any misuse or damage caused by this software. Use it at your own risk.
