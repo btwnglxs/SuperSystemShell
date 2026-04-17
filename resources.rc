@@ -1,0 +1,25 @@
+MAINICON ICON "icon.ico"
+
+1 VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName",      "btwnglxs"
+            VALUE "FileDescription",  "Simple CLI-tool to get Super System powers in your Windows system."
+            VALUE "FileVersion",      "1.0"
+            VALUE "InternalName",     "SuSysShell"
+            VALUE "LegalCopyright",   "Copyright (C) 2026 btwnglxs"
+            VALUE "OriginalFilename", "SuSysShell.exe"
+            VALUE "ProductName",      "Super System Shell"
+            VALUE "ProductVersion",   "1.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
